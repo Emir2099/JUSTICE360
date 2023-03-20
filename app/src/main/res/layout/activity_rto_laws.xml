@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerbackground"
+    tools:context=".RtoLawsActivity">
+
+
+    <TextView
+        android:id="@+id/titleSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="JUSTICE 360"
+        android:textColor="#FD0065"
+        android:textColorHighlight="#FF0909"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitleSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="RTO LAWS"
+        android:textColor="#D1608D"
+        android:textColorHighlight="#FF0909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/subtitleSettings"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardLaws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/colorCard"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LIST OF SOME OF THE LAWS WHICH COMES UNDER THE RTO LAW SECTION ACCORDING TO THE INDIAN CONSTITUTION"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aldrich"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="\n
+• You cannot give a lift to any unknown person on your vehicle\n
+According to Section 66 of the Motor Vehicle Act, 1988, one can only use a vehicle for the purpose of which he/she has been granted permit by the Regional or State Transport Authority, therefore, using a motor vehicle for giving lift to an unknown person from one place to another is a commercial purpose, for which permit is granted only to commercial vehicles. Therefore, a private vehicle which has been granted permit for private use only cannot be used for giving lift to any unknown person.\n\n
+• You cannot cross the yellow line to overtake\n
+According to Rule 18 of the Rules of the Road Regulations, 1989, on roads which have a yellow line instead of a divider, you cannot cross the yellow line in order to overtake a vehicle moving slowly in front of you. This means that if you cross the yellow line in between of a road which is to be treated as a divider, to overtake another vehicle, it will be violative of the Rules of the Road Regulations, 1989.\n\n
+• You must use working headlights after sunset or in insufficient light\n
+According to Rule 105 of the Central Motor Vehicle Rules, 1989, after half an hour of the sunset and at any time when there is no sufficient light, the lamps of the vehicle (in working condition) must be used and shall clearly render persons and vehicle 150 meters ahead.\n\n
+• You must stop your vehicle (involved in any accident) when stopped by a Police Officer of rank not below SI\n
+According to clause (a) of Sub-section (1) of Section 132 of the Motor Vehicle Act, 1988, if a person is driving any motor vehicle which is involved in any accident to a person, animal or vehicle or of damage to property, then it is the duty of the person driving that motor vehicle to stop his/her vehicle when he/she is stopped by a police officer of the rank of Sub-Inspector or above. But this is only for the cases where the motor vehicle is involved in any accident and not otherwise.\n\n
+• You must not to prevent other vehicle from overtaking your vehicle\n
+According to Rule 7 of Rules of the Road Regulations, 1989, when your vehicle is being passed by or being overtaken by another vehicle, you cannot increase your speed or cannot do anything to prevent that vehicle from overtaking you. This means that if another vehicle is trying to overtake your vehicle, it is your duty not to obstruct or prevent him to do so by increasing the speed or in any other manner but let him overtake your vehicle.\n\n
+• You must not use vehicle creating unnecessary noise or having loud/harsh sounding horns\n
+According to Rule 21 of Rules of the Road Regulations, 1989, you cannot drive a vehicle creating any unnecessary undue sound and also, you can neither fit nor use in your vehicle, any multitoned horn giving a loud, harsh, shrill or alarming noise, which is unpleasant to the ears of the other drivers on the road.\n\n
+• You must not park your vehicle improperly\n
+According to Section 122 of Motor Vehicle Act, 1988, No person who is the owner or in charge of a motor vehicle should no park or rest his vehicle in such an unusual way that it causes obstruction or under inconvenience to the general public.\n\n
+• Your vehicle must display number plate in proper form and manner\n
+According to Rule 50 of the Central Motor Vehicle Rules, 1989, The number plate of the vehicle should be clearly visible both at the front and at the back. The number plate should be a solid unit of 1.0 mm thick aluminium; it should be rounded from all the edges as sharp edges may inflict injuries to the pedestrians. It should also bear the letter IND in blue colour.\n\n
+• Suspension of permit if goods vehicle used for carrying passengers\n
+According to Section 86(1)(e) of the Motor Vehicle Act, 1988, A permit can be cancelled if the holder fails, without reasonable doubt, to use the vehicle for which the permit was granted. As the permit is granted to carry goods so it cannot be used to carry passengers in it.\n\n
+• A child is treated as third passenger on a two-wheeler\n
+Section 128 of the Motor Vehicles Act states that a two-wheeler rider is not allowed to carry more than one passenger in addition to himself and that person should be seated on a seat which is securely fixed to the said vehicle. This section, however, does not specify the case if a couple is riding a two-wheeler with a child. But the traffic police treat the child as a third passenger and hence can issue a challan of Rs 2,000 in this regard.\n
+"
+
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>

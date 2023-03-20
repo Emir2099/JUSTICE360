@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/registerbackground"
+    android:layout_height="match_parent"
+    tools:context=".CriminalLawsActivity">
+
+    <TextView
+        android:id="@+id/titleCivilLaws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="JUSTICE 360"
+        android:textColor="#FD0065"
+        android:textColorHighlight="#FF0909"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"/>
+
+    <TextView
+        android:id="@+id/subtitleCivilLaws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="CRIMINAL LAWS"
+        android:textColor="#D1608D"
+        android:textColorHighlight="#FF0909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/subtitleCivilLaws"
+        android:layout_row="0"
+        android:layout_column="0">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLaws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/colorCard"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIST OF SOME OF THE LAWS WHICH COMES UNDER THE CRIMINAL LAW SECTION ACCORDING TO THE INDIAN CONSTITUTION"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/aldrich"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aldrich"
+                    android:text="\n
+• NDPS act :- The Narcotic Drugs and Psychotropic Substances Act, 1985, commonly referred to as the NDPS Act, is an Act of the Parliament of India that prohibits a person the production/manufacturing/cultivation, possession, sale, purchasing, transport, storage, and/or consumption of any narcotic drug or psychotropic substance. Anyone who contravenes the NDPS Act will face punishment based on the quantity of the banned substance.\n\n
+• The Prevention of Corruption Act, 1988 (No. 49 of 1988) is an Act of the Parliament of India enacted to combat corruption in government agencies and public sector businesses in India. The following are the offences under the PCA along with their punishments:- Obtaining an undue advantage, with the intention to perform or cause performance of public duty improperly or dishonestly, etc., and if the public servant is found guilty, he shall be punishable with imprisonment which shall be not less than 3 years but which may extend to 5 years and shall also be liable to fine.\n\n
+• Information Technology Act(ITA) :- The ITA regulates cybercrimes and provides punishment for offenses such as hacking, data theft, and cyberstalking. The Information Technology Act, 2000 (also known as ITA-2000, or the IT Act) is an Act of the Indian Parliament (No 21 of 2000) notified on 17 October 2000. It is the primary law in India dealing with cybercrime and electronic commerce.\n\n
+• Foreign Exchange Management Act (FEMA) :- The FEMA regulates foreign exchange transactions in India. It prescribes punishment for offenses related to foreign exchange violations.
+• The Foreign Exchange Management Act, 1999 (FEMA), is an Act of the Parliament of India to consolidate and amend the law relating to foreign exchange with the objective of facilitating external trade and payments and for promoting the orderly development and maintenance of foreign exchange market in India. It was passed on 29 December 1999 in parliament, replacing the Foreign Exchange Regulation Act (FERA). This act makes offences related to foreign exchange civil offenses.  It enabled a new foreign exchange management regime consistent with the emerging framework of the World Trade Organization (WTO).\n\n
+• Child sexual abuse laws in India have been enacted as part of the child protection policies of India. The Parliament of India passed the 'Protection of Children Against Sexual Offences Bill (POCSO), 2011' regarding child sexual abuse on 22 May 2012, making it an Act. A guideline was passed by the Ministry of Women and Child Development, India. The Protection of Children from Sexual Offences Act, 2012 was enacted to provide a robust legal framework for the protection of children from offences of sexual assault, sexual harassment and pornography, while safeguarding the interest of the child at every stage of the judicial process.\n\n
+• Dowry Prohibition Act :- The Dowry Prohibition Act, 1961 consolidated the anti-dowry laws which had been passed on certain states. This legislation provides for a penalty in section 3 if any person gives, takes or abets giving or receiving of dowry. The punishment could be imprisonment for minimum 5 years and a fine more than ₹15,000 or the value of the dowry received, whichever is higher. Dowry in the Act is defined as any property or valuable security given or agreed to be given in connection with the marriage. The penalty for giving or taking dowry is not applicable in case of presents which are given at the time of marriage without any demand having been made.\n\n
+• Prevention of Terrorism Act (POTA) :- The POTA provides for the prevention and control of terrorist activities in India. It prescribes punishment for offenses related to terrorism. The Prevention of Terrorism Act 2005 (c 2) was an Act of the Parliament of the United Kingdom, intended to deal with the Law Lords' ruling of 16 December 2004 that the detention without trial of eight foreigners (known as the 'Belmarsh 8') at HM Prison Belmarsh under Part 4 of the Anti-terrorism, Crime and Security Act 2001 was unlawful, being incompatible with European (and, thus, domestic) human rights laws. A key feature of the Anti-terrorism, Crime and Security Act 2001 was that resident foreigners suspected of terrorism could be interned without trial, if they could not be deported to another country without breaching British human rights legislation. Several individuals were interned, mainly in Belmarsh prison, under these powers; they were free to leave, but only if they left the country, which some did.\n\n
+• Motor Vehicles Act :- The Motor Vehicles Act regulates the use of motor vehicles in India. It prescribes punishment for traffic violations, such as drunk driving, over-speeding, and rash driving. The Act was amended again by the Indian Motor Vehicles (Amendment) Act, 1924 (Act No. XV of 1924). The Act received assent from the Governor General on 18 September 1924. It had the title, An Act further to amend the Indian Motor Vehicles Act, 1914, for certain purposes and amended section 11 of the 1914 Act by inserting the words and the duration for which after the words area in which in clause (a) of subsection (2) of section 11. The motor vehicles act has again been amended in 1939, and replaced in 1988. The 1988 amendment was brought to address above mentioned statements of object and reasons.\n
+"
+
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerbackground"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/titleCivilLaws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="JUSTICE 360"
+        android:textColor="#FD0065"
+        android:textColorHighlight="#FF0909"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitleCivilLaws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:outlineProvider="none"
+        android:text="CIVIL LAWS"
+        android:textColor="#D1608D"
+        android:textColorHighlight="#FF0909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/subtitleCivilLaws"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardLaws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/colorCard"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LIST OF SOME OF THE LAWS WHICH COMES UNDER THE CIVIL LAW SECTION ACCORDING TO THE INDIAN CONSTITUTION"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/aldrich"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="\n
+• Right to Information, Article 19 (1)(a) :-
+A law passed by the Indian Parliament known as the Right to Information (RTI) establishes the right to information as a basic right for all Indian people. Parliament passed this Right to Information on June 15, 2005, and it officially took effect on October 12, 2005.
+Any Indian citizen may seek information from any public authority under the RTI Act, and the authority is required to respond as soon as possible or within thirty days.
+The information must be given within 48 hours if the petitioner's life or freedom are at stake.\n\n
+• Right to Equality, Article 14 :-
+The Indian Constitution's Right to Equality (Article 14) guarantees equality before the law within Indian territory. Anyone and everyone who is on Indian soil, including corporations and foreigners as well as citizens of India, is subject to this law.
+Classification is allowed under Article 14 as long as it is reasonable, but class legislation is not allowed. It is appropriate to classify people into groups when:\n
+a) The classification is based on discernible differences that separate the grouped individuals or things from those who are not included in the group.\n
+b) The disparity makes sense in connection to the act's goal.\n\n
+• Right to Education, Article 21 (A) :-
+On August 4, 2009, the Indian Parliament passed the Right to Education Act (RTE). In accordance with Article 21(a) of the Indian Constitution, this law outlines the specifics of the importance of free and compulsory education for children aged 6 to 14 in India.
+Every child between the ages of 6 and 14 has the fundamental right to access an education, and RTE establishes minimum standards for primary institutions.
+According to this rule, all private schools must reserve 25 percent of their seats for students (to be reimbursed by the state as part of the public-private partnership plan).
+Additionally, it forbids any unrecognised schools from operating, and it stipulates that there will be no donation or capitation fees, as well as no parent or child interviews for admittance.
+The Act also states that until the end of elementary school, no kid shall be held back, expelled, or compelled to pass a board exam.
+Additionally, there is a facility for additional instruction for drop outs to bring them up to level with pupils their own age.\n\n
+• Right to Life, Article 21 :-
+According to Article 21, no one, not even the government, has the right to take your life. Under passing laws to protect you, the government is required by this law to take the necessary steps to protect life.
+In addition, the right to life requires the government to protect you if your life is in danger by taking the necessary measures.
+When making decisions that could put you in risk or have an impact on your life expectancy, public authorities should also take into account your right to life.
+You can be entitled to an investigation if a family member passes away due to state involvement.
+The majority of Indians are aware of some of our fundamental legal rights, but there are a few that you may not be aware of.\n\n
+• Right to File an FIR :-
+A police officer is not permitted to decline to file a FIR, as stated in Indian Penal Code 166 A. A police officer who declines to submit a FIR for a cognizable violation is subject to punishment under Section 166A(c) of the Indian Penal Code if they are an Indian citizen.
+The police officer in these situations will be responsible for prosecution and punishment, according to the Supreme Court. How should I use this right?
+Visit the police station (preferably close to the crime scene) and provide the officer in charge of that area all the information you have. Additionally, Section 154 of the CrPC offers the informant the option of providing information verbally or in writing.\n\n
+• Right to claim a Refund :-
+Every consumer is entitled to a full refund under the terms of the Consumer Protection Act of 1986 if they are dissatisfied with their purchase or are unable to use the services they have paid for.
+In truth, printing No exchange or refund on bills and invoices is against the law and constitutes an unfair business conduct.\n\n
+• Right of parents to be maintained by their children :-
+Parents (father or mother, whether biological, adoptive, or stepfather or stepmother, whether senior citizen or not) have the right to demand support from their adult children under Section 125 of the Cr. P.C.\n\n
+• Right to Equal pay for Equal work :-
+Equal pay for equally hard labour is required by the Equal Remuneration Act of 1976, a piece of legislation. They should receive equal compensation if two or more people performed the same task in similar situations.\n\n
+• Rights of a woman when arrested :-
+No woman may be taken into custody before sunrise or after sunset (After 6 pm and before 6 am), with the exception of extraordinary circumstances, according to section 46 of the criminal procedure code (CrPc). Additionally, a male police officer is never allowed to arrest a woman.
+ \n\n
+• Right to free legal aid :-
+The government passed this law in accordance with Article 39-A of the Indian Constitution to offer free legal aid to anyone who cannot afford to hire an attorney.\n
+"
+
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>

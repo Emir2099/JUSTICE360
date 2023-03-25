@@ -11,5 +11,7 @@
 <h1>Download APK</h1>
 <a href="https://drive.google.com/file/d/10HEmwS0EcP8OBfoicyLvtj5lUnfyxmHX/view?usp=sharing">Download the application in your android device by clicking here!</a>
 
-<img src="https://user-images.githubusercontent.com/84385451/227735485-bed886dc-d014-4009-8915-143d29c1189c.png" width ="200" height="300">
+<h1>APP OVERVIEW</h1>
+<p>After opening the app, Register as a new user:-</p>
+<img src="https://user-images.githubusercontent.com/84385451/227735485-bed886dc-d014-4009-8915-143d29c1189c.png" width ="200" height="300" style="vertical-align:middle">
 

@@ -12,18 +12,18 @@
 <a href="https://drive.google.com/file/d/10HEmwS0EcP8OBfoicyLvtj5lUnfyxmHX/view?usp=sharing">Download the application in your android device by clicking here!</a>
 
 <h1>Application Overview</h1>
-<p>After opening the app, Register as a new user:-</p>
+<p>• After opening the app, Register as a new user:-</p>
 <img src="https://user-images.githubusercontent.com/84385451/227735485-bed886dc-d014-4009-8915-143d29c1189c.png" width ="200" height="300" style="vertical-align:middle">
 <br>
-<p>Login with registered username and password:-</p>
+<p>• Login with registered username and password:-</p>
 <img src="https://user-images.githubusercontent.com/84385451/227735710-9fea38f4-44b8-4059-973c-7a40f1b746c1.png" width ="200" height="300" style="vertical-align:middle">
 <br>
-<p>After login, you will land on the home interface of the application:-</p>
+<p>• After login, you will land on the home interface of the application:-</p>
 <img src="https://user-images.githubusercontent.com/84385451/227735816-38dc3b11-5861-4341-bf13-a1abf7cefd71.png" width ="200" height="300" style="vertical-align:middle">
 <br>
-<p>Now you can navigate through different features:-<br>
-&nbsp     - "Laws" will display sections regarding Civil laws, Criminal laws and RTO laws listed in Indian Constitution.<br>
-  - "Lawyers" will help you to fix an appointment with different lawyers and ask for legal aids.<br>
-  - "Headlines" shows recent headlines or important news.<br>
-  - "Settings" shows information regarding the application as of now.<br>
-  - "Logout" will log you out of your current log in account.<br>
+<p>• Now you can navigate through different features:-<br>
+&nbsp   - "Laws" will display sections regarding Civil laws, Criminal laws and RTO laws listed in Indian Constitution.<br>
+&nbsp   - "Lawyers" will help you to fix an appointment with different lawyers and ask for legal aids.<br>
+&nbsp   - "Headlines" shows recent headlines or important news.<br>
+&nbsp   - "Settings" shows information regarding the application as of now.<br>
+&nbsp   - "Logout" will log you out of your current log in account.<br>

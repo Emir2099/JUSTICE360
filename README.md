@@ -20,4 +20,10 @@
 <br>
 <p>After login, you will land on the home interface of the application:-</p>
 <img src="https://user-images.githubusercontent.com/84385451/227735816-38dc3b11-5861-4341-bf13-a1abf7cefd71.png" width ="200" height="300" style="vertical-align:middle">
-
+<br>
+<p>Now you can navigate through different features. 
+  - "Laws" will display sections regarding Civil laws, Criminal laws and RTO laws listed in Indian Constitution. 
+  - "Lawyers" will help you to fix an appointment with different lawyers and ask for legal aids. 
+  - "Headlines" shows recent headlines or important news.
+  - "Settings" shows information regarding the application as of now.
+  - "Logout" will log you out of your current log in account.

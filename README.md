@@ -11,7 +11,13 @@
 <h1>Download APK</h1>
 <a href="https://drive.google.com/file/d/10HEmwS0EcP8OBfoicyLvtj5lUnfyxmHX/view?usp=sharing">Download the application in your android device by clicking here!</a>
 
-<h1>APP OVERVIEW</h1>
+<h1>Application Overview</h1>
 <p>After opening the app, Register as a new user:-</p>
 <img src="https://user-images.githubusercontent.com/84385451/227735485-bed886dc-d014-4009-8915-143d29c1189c.png" width ="200" height="300" style="vertical-align:middle">
+<br>
+<p>Login with registered username and password:-</p>
+<img src="https://user-images.githubusercontent.com/84385451/227735710-9fea38f4-44b8-4059-973c-7a40f1b746c1.png" width ="200" height="300" style="vertical-align:middle">
+<br>
+<p>After login, you will land on the home interface of the application:-</p>
+<img src="https://user-images.githubusercontent.com/84385451/227735816-38dc3b11-5861-4341-bf13-a1abf7cefd71.png" width ="200" height="300" style="vertical-align:middle">
 
